@@ -1,0 +1,36 @@
+body {
+  padding: 50px 200px;
+  text-align: center;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.key {
+  display: inline-block;
+  text-align: center;
+  margin: 20px 40px;
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  border-radius: 100px;
+  padding: 20px;
+  transition: all .07s;
+  overflow: hidden;
+}
+
+.key p {
+  margin: 0px;
+  display: block;
+  line-height: 1.8em;
+  font-size: 2em;
+}
+
+.key span {
+  font-size: 0.7em;
+}
+
+.playing {
+  border: 3px solid yellow;
+  box-shadow: 0 0 10px yellow;
+  transform: scale(1.1);
+}
